@@ -28426,74 +28426,43 @@ var _Button = _interopRequireDefault(require("./Button.js"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function App() {
-  var style = {
-    marginBlockEnd: '1rem'
-  };
-  return /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("div", {
-    style: style
-  }, /*#__PURE__*/_react.default.createElement(_Button.default, {
+  return /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("p", null, "<button />"), /*#__PURE__*/_react.default.createElement(_Button.default, {
     default: "default"
-  }, "Default")), /*#__PURE__*/_react.default.createElement("div", {
-    style: style
-  }, /*#__PURE__*/_react.default.createElement(_Button.default, {
+  }, "Default")), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("p", null, "<button variant=\"outline\" />"), /*#__PURE__*/_react.default.createElement(_Button.default, {
     variant: "outline"
-  }, "Default")), /*#__PURE__*/_react.default.createElement("div", {
-    style: style
-  }, /*#__PURE__*/_react.default.createElement(_Button.default, {
+  }, "Default")), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("p", null, "<button variant=\"text\" />"), /*#__PURE__*/_react.default.createElement(_Button.default, {
     variant: "text"
-  }, "Default")), /*#__PURE__*/_react.default.createElement("div", {
-    style: style
-  }, /*#__PURE__*/_react.default.createElement(_Button.default, {
+  }, "Default")), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("p", null, "<button disableShadow=\"disableShadow\" />"), /*#__PURE__*/_react.default.createElement(_Button.default, {
     disableShadow: "disableShadow"
-  }, "Default")), /*#__PURE__*/_react.default.createElement("ul", {
-    style: {
-      maxWidth: '320px',
-      marginBlockEnd: '1rem'
-    }
-  }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement(_Button.default, {
+  }, "Default")), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("p", null, "<button disabled=\"disabled\" />"), /*#__PURE__*/_react.default.createElement(_Button.default, {
     disabled: "disabled"
-  }, "Disabled")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement(_Button.default, {
+  }, "Disabled")), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("p", null, "<button variant=\"text\" disabled=\"disabled />"), /*#__PURE__*/_react.default.createElement(_Button.default, {
     variant: "text"
-  }, "Disabled"))), /*#__PURE__*/_react.default.createElement("ul", {
-    style: {
-      maxWidth: '330px',
-      marginBlockEnd: '1rem'
-    }
-  }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement(_Button.default, {
+  }, "Disabled")), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("p", null, "<button startIcon=\"startIcon\" />"), /*#__PURE__*/_react.default.createElement(_Button.default, {
     startIcon: "startIcon",
     color: "color"
-  }, "Default")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement(_Button.default, {
+  }, "Default")), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("p", null, "<button endIcon=\"startIcon\" />"), /*#__PURE__*/_react.default.createElement(_Button.default, {
     startIcon: "endIcon",
     color: "color"
-  }, "Default"))), /*#__PURE__*/_react.default.createElement("ul", {
-    style: {
-      maxWidth: '560px',
-      marginBlockEnd: '1rem'
-    }
-  }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement(_Button.default, {
+  }, "Default")), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("p", null, "<button sm=\"sm\" />"), /*#__PURE__*/_react.default.createElement(_Button.default, {
     sm: "sm",
     color: "color"
-  }, "Default")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement(_Button.default, {
+  }, "Default")), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("p", null, "<button md=\"md\" />"), /*#__PURE__*/_react.default.createElement(_Button.default, {
     md: "md",
     color: "color"
-  }, "Default")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement(_Button.default, {
+  }, "Default")), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("p", null, "<button lg=\"lg\" />"), /*#__PURE__*/_react.default.createElement(_Button.default, {
     lg: "lg",
     color: "color"
-  }, "Default"))), /*#__PURE__*/_react.default.createElement("ul", {
-    style: {
-      maxWidth: '800px',
-      marginBlockEnd: '1rem'
-    }
-  }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement(_Button.default, {
+  }, "Default")), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("p", null, "<button default_color=\"default_color />"), /*#__PURE__*/_react.default.createElement(_Button.default, {
     default_color: "default_color"
-  }, "Default")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement(_Button.default, {
+  }, "Default")), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("p", null, "<button primary=\"primary\" />"), /*#__PURE__*/_react.default.createElement(_Button.default, {
     primary: "primary",
     color: "color"
-  }, "Default")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement(_Button.default, {
+  }, "Default")), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("p", null, "<button secondary=\"secondary\" />"), /*#__PURE__*/_react.default.createElement(_Button.default, {
     secondary: "secondary"
-  }, "secondary")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement(_Button.default, {
+  }, "secondary")), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("p", null, "<button danger=\"danger\" />"), /*#__PURE__*/_react.default.createElement(_Button.default, {
     danger: "danger"
-  }, "Danger"))));
+  }, "Danger")));
 }
 
 var _default = App;

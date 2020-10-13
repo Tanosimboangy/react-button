@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+    padding: 1rem;
+}
 button {
     font-style: normal;
     font-weight: 500;
@@ -47,6 +51,7 @@ button:focus, button:hover {
     padding: 8px 13px;
     color: #9E9E9E;
     background: #E0E0E0;
+    cursor: none;
 }
 .color {
     background: #2962FF;
