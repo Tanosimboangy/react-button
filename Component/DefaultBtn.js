@@ -6,13 +6,7 @@ function DefaultBtn(props) {
   let endIcon = props.endIcon=== "local_grocery_store" ? icon : '';
   return (
     <div>
-      <button className={`
-                    ${props.variant}
-                    ${props.color}
-                    ${props.disabled}
-                    ${props.disabledShadow}
-                    ${props.size}
-  `}>{startIcon} {props.children} {endIcon}</button>
+      <button className={`${props.variant} ${props.color} ${props.disabled} ${props.disabledShadow} ${props.size}`}>{startIcon} {props.children} {endIcon}</button>
     </div>
   )
 }
